@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+/* CAMBIO DE FONT-FAMILY */
+:root {
+    --bs-body-font-family: 'Belanosima', sans-serif;
+}
+
 /* IMAGEN DE FONDO PARA INDEX */
 .bodyIndex {
     height: 100vh;
