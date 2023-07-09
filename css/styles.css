@@ -4,9 +4,51 @@
     box-sizing: border-box;
 }
 
-body {
+/* CAMBIO DE FONT-FAMILY */
+:root {
+    --bs-body-font-family: 'Belanosima', sans-serif;
+}
+
+/* IMAGEN DE FONDO PARA INDEX */
+.bodyIndex {
     height: 100vh;
     background-image: url(../assets/img/fondo-inicio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* IMAGEN DE FONDO PARA SOBRE MI */
+.bodySobreMi {
+    height: 100vh;
+    background-image: url(../assets/img/pxfuel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* IMAGEN DE FONDO PARA SKILLS */
+.bodySkills {
+    height: 100vh;
+    background-image: url(../assets/img/fondo-skills.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* IMAGEN DE FONDO PARA PORTFOLIO */
+.bodyPortfolio {
+    height: 100vh;
+    background-image: url(../assets/img/developer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* IMAGEN DE FONDO PARA CONTACTO */
+.bodyContacto {
+    height: 100vh;
+    background-image: url(../assets/img/fondo-contacto.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,11 +59,11 @@ header {
 }
 
 main {
-    height: 80vh;
+    height: 72vh;
 }
 
 footer {
-    height: 10vh;
+    height: 18vh;
 }
 
 .btn-danger {
@@ -44,6 +86,7 @@ footer {
 .text-danger {
     --bs-text-opacity: 0;
     color: #ff5080 !important;
+    text-shadow: 2px 2px 3px #fff;
 }
 
 .bg-body-tertiary {
@@ -51,6 +94,7 @@ footer {
     background-color: #00000075!important;
 }
 
+/* NAV-BAR DE TODAS LAS PAGINAS */
 .navbar {
     --bs-navbar-padding-x: 0;
     --bs-navbar-padding-y: 0.5rem;
@@ -87,7 +131,7 @@ footer {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: var(--bs-body-color);
+    color: #000000;
     background-color: #ffffffb9;
     background-clip: padding-box;
     border: var(--bs-border-width) solid #ff5080;
@@ -113,6 +157,58 @@ footer {
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: #198754;
     --bs-gradient: none;
+}
+
+/* BARRAS DE PAGINA SKILLS */
+.progress, .progress-stacked {
+    --bs-progress-height: 1rem;
+    --bs-progress-font-size: 0.75rem;
+    --bs-progress-bg: #ff507f9f;
+    --bs-progress-border-radius: var(--bs-border-radius);
+    --bs-progress-box-shadow: var(--bs-box-shadow-inset);
+    --bs-progress-bar-color: rgb(0, 0, 0);
+    --bs-progress-bar-bg: #00d4db;
+    --bs-progress-bar-transition: width 0.6s ease;
+    display: flex;
+    height: var(--bs-progress-height);
+    overflow: hidden;
+    font-size: var(--bs-progress-font-size);
+    background-color: var(--bs-progress-bg);
+    border-radius: var(--bs-progress-border-radius);
+}
+
+/* CARDS DE PAGINA PORTFOLIO */
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: #ff5080;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: #525252d0;
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: #fff;
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
 }
 
 
