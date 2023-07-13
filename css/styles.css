@@ -1,218 +1,214 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* CAMBIO DE FONT-FAMILY */
 :root {
-    --bs-body-font-family: 'Belanosima', sans-serif;
+  --bs-body-font-family: "Belanosima", sans-serif;
 }
 
 /* IMAGEN DE FONDO PARA INDEX */
 .bodyIndex {
-    height: 100vh;
-    background-image: url(../assets/img/fondo-inicio.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 100vh;
+  background-image: url(../assets/img/fondo-inicio.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* IMAGEN DE FONDO PARA SOBRE MI */
 .bodySobreMi {
-    height: 100vh;
-    background-image: url(../assets/img/pxfuel.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 100vh;
+  background-image: url(../assets/img/pxfuel.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* IMAGEN DE FONDO PARA SKILLS */
 .bodySkills {
-    height: 100vh;
-    background-image: url(../assets/img/fondo-skills.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 100vh;
+  background-image: url(../assets/img/fondo-skills.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* IMAGEN DE FONDO PARA PORTFOLIO */
 .bodyPortfolio {
-    height: 100vh;
-    background-image: url(../assets/img/developer.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 100vh;
+  background-image: url(../assets/img/developer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* IMAGEN DE FONDO PARA CONTACTO */
 .bodyContacto {
-    height: 100vh;
-    background-image: url(../assets/img/fondo-contacto.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 100vh;
+  background-image: url(../assets/img/fondo-contacto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
-    height: 10vh;
+  height: 10vh;
 }
 
 main {
-    height: 72vh;
+  height: 72vh;
 }
 
 footer {
-    height: 18vh;
+  height: 18vh;
 }
 
 .btn-danger {
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #00000075;
-    --bs-btn-border-color: #ff5080;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #ff507fd2;
-    --bs-btn-hover-border-color: #b02a37;
-    --bs-btn-focus-shadow-rgb: 225,83,97;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #b02a37;
-    --bs-btn-active-border-color: #a52834;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #dc3545;
-    --bs-btn-disabled-border-color: #dc3545;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #00000075;
+  --bs-btn-border-color: #ff5080;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #ff507fd2;
+  --bs-btn-hover-border-color: #b02a37;
+  --bs-btn-focus-shadow-rgb: 225,83,97;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #b02a37;
+  --bs-btn-active-border-color: #a52834;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #dc3545;
+  --bs-btn-disabled-border-color: #dc3545;
 }
 
 .text-danger {
-    --bs-text-opacity: 0;
-    color: #ff5080 !important;
-    text-shadow: 2px 2px 3px #fff;
+  --bs-text-opacity: 0;
+  color: #ff5080 !important;
+  text-shadow: 2px 2px 3px #fff;
 }
 
 .bg-body-tertiary {
-    --bs-bg-opacity: 1;
-    background-color: #00000075!important;
+  --bs-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, 0.4588235294) !important;
 }
 
 /* NAV-BAR DE TODAS LAS PAGINAS */
 .navbar {
-    --bs-navbar-padding-x: 0;
-    --bs-navbar-padding-y: 0.5rem;
-    --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
-    --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
-    --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
-    --bs-navbar-active-color: #ff5080;
-    --bs-navbar-brand-padding-y: 0.3125rem;
-    --bs-navbar-brand-margin-end: 1rem;
-    --bs-navbar-brand-font-size: 1.25rem;
-    --bs-navbar-brand-color: #ff5080;
-    --bs-navbar-brand-hover-color: #fff!important;
-    --bs-navbar-nav-link-padding-x: 0.5rem;
-    --bs-navbar-toggler-padding-y: 0.25rem;
-    --bs-navbar-toggler-padding-x: 0.75rem;
-    --bs-navbar-toggler-font-size: 1.25rem;
-    --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
-    --bs-navbar-toggler-border-color: #ff5080;
-    --bs-navbar-toggler-border-radius: var(--bs-border-radius);
-    --bs-navbar-toggler-focus-width: 0.25rem;
-    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+  --bs-navbar-padding-x: 0;
+  --bs-navbar-padding-y: 0.5rem;
+  --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
+  --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
+  --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
+  --bs-navbar-active-color: #ff5080;
+  --bs-navbar-brand-padding-y: 0.3125rem;
+  --bs-navbar-brand-margin-end: 1rem;
+  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-color: #ff5080;
+  --bs-navbar-brand-hover-color: #fff!important;
+  --bs-navbar-nav-link-padding-x: 0.5rem;
+  --bs-navbar-toggler-padding-y: 0.25rem;
+  --bs-navbar-toggler-padding-x: 0.75rem;
+  --bs-navbar-toggler-font-size: 1.25rem;
+  --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3e%3cpath stroke="rgba%2833, 37, 41, 0.75%29" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3e%3c/svg%3e);
+  --bs-navbar-toggler-border-color: #ff5080;
+  --bs-navbar-toggler-border-radius: var(--bs-border-radius);
+  --bs-navbar-toggler-focus-width: 0.25rem;
+  --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
 
 .form-control {
-    display: block;
-    width: 100%;
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #000000;
-    background-color: #ffffffb9;
-    background-clip: padding-box;
-    border: var(--bs-border-width) solid #ff5080;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: var(--bs-border-radius);
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.7254901961);
+  background-clip: padding-box;
+  border: var(--bs-border-width) solid #ff5080;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: var(--bs-border-radius);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-success {
-    --bs-btn-color: #ff5080;
-    --bs-btn-border-color: #0000009d;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #ff5080;
-    --bs-btn-hover-border-color: #0000009d;
-    --bs-btn-focus-shadow-rgb: 25,135,84;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #198754;
-    --bs-btn-active-border-color: #198754;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #198754;
-    --bs-btn-disabled-bg: transparent;
-    --bs-btn-disabled-border-color: #198754;
-    --bs-gradient: none;
+  --bs-btn-color: #ff5080;
+  --bs-btn-border-color: #0000009d;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #ff5080;
+  --bs-btn-hover-border-color: #0000009d;
+  --bs-btn-focus-shadow-rgb: 25,135,84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #198754;
+  --bs-btn-active-border-color: #198754;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #198754;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #198754;
+  --bs-gradient: none;
 }
 
 /* BARRAS DE PAGINA SKILLS */
 .progress, .progress-stacked {
-    --bs-progress-height: 1rem;
-    --bs-progress-font-size: 0.75rem;
-    --bs-progress-bg: #ff507f9f;
-    --bs-progress-border-radius: var(--bs-border-radius);
-    --bs-progress-box-shadow: var(--bs-box-shadow-inset);
-    --bs-progress-bar-color: rgb(0, 0, 0);
-    --bs-progress-bar-bg: #00d4db;
-    --bs-progress-bar-transition: width 0.6s ease;
-    display: flex;
-    height: var(--bs-progress-height);
-    overflow: hidden;
-    font-size: var(--bs-progress-font-size);
-    background-color: var(--bs-progress-bg);
-    border-radius: var(--bs-progress-border-radius);
+  --bs-progress-height: 1rem;
+  --bs-progress-font-size: 0.75rem;
+  --bs-progress-bg: #ff507f9f;
+  --bs-progress-border-radius: var(--bs-border-radius);
+  --bs-progress-box-shadow: var(--bs-box-shadow-inset);
+  --bs-progress-bar-color: rgb(0, 0, 0);
+  --bs-progress-bar-bg: #00d4db;
+  --bs-progress-bar-transition: width 0.6s ease;
+  display: flex;
+  height: var(--bs-progress-height);
+  overflow: hidden;
+  font-size: var(--bs-progress-font-size);
+  background-color: var(--bs-progress-bg);
+  border-radius: var(--bs-progress-border-radius);
 }
 
 /* CARDS DE PAGINA PORTFOLIO */
 .card {
-    --bs-card-spacer-y: 1rem;
-    --bs-card-spacer-x: 1rem;
-    --bs-card-title-spacer-y: 0.5rem;
-    --bs-card-title-color: #ff5080;
-    --bs-card-subtitle-color: ;
-    --bs-card-border-width: var(--bs-border-width);
-    --bs-card-border-color: var(--bs-border-color-translucent);
-    --bs-card-border-radius: var(--bs-border-radius);
-    --bs-card-box-shadow: ;
-    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
-    --bs-card-cap-padding-y: 0.5rem;
-    --bs-card-cap-padding-x: 1rem;
-    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
-    --bs-card-cap-color: ;
-    --bs-card-height: ;
-    --bs-card-color: ;
-    --bs-card-bg: #525252d0;
-    --bs-card-img-overlay-padding: 1rem;
-    --bs-card-group-margin: 0.75rem;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    height: var(--bs-card-height);
-    color: #fff;
-    word-wrap: break-word;
-    background-color: var(--bs-card-bg);
-    background-clip: border-box;
-    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
-    border-radius: var(--bs-card-border-radius);
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-title-color: #ff5080;
+  --bs-card-subtitle-color: ;
+  --bs-card-border-width: var(--bs-border-width);
+  --bs-card-border-color: var(--bs-border-color-translucent);
+  --bs-card-border-radius: var(--bs-border-radius);
+  --bs-card-box-shadow: ;
+  --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+  --bs-card-cap-color: ;
+  --bs-card-height: ;
+  --bs-card-color: ;
+  --bs-card-bg: #525252d0;
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  color: #fff;
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-radius: var(--bs-card-border-radius);
 }
 
-
-
-
-
-
+/*# sourceMappingURL=styles.css.map */
