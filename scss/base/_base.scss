@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 10vh;
+}
+
+main {
+    height: 72vh;
+}
+
+footer {
+    height: 18vh;
+}
+
+/* IMAGEN DE FONDO PARA INDEX */
+.bodyIndex {
+    height: 100vh;
+    background-image: url(../assets/img/fondo-inicio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* IMAGEN DE FONDO PARA SOBRE MI */
+.bodySobreMi {
+    height: 100vh;
+    background-image: url(../assets/img/pxfuel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* IMAGEN DE FONDO PARA SKILLS */
+.bodySkills {
+    height: 100vh;
+    background-image: url(../assets/img/fondo-skills.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* IMAGEN DE FONDO PARA PORTFOLIO */
+.bodyPortfolio {
+    height: 100vh;
+    background-image: url(../assets/img/developer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* IMAGEN DE FONDO PARA CONTACTO */
+.bodyContacto {
+    height: 100vh;
+    background-image: url(../assets/img/fondo-contacto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
