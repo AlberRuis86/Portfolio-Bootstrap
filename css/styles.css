@@ -203,6 +203,21 @@ footer {
   height: 65vh;
 }
 
+.slide {
+  height: 65vh;
+  width: 50vw;
+}
+
+@media (min-width: 320px) {
+  .slide {
+    width: 90vw;
+  }
+}
+@media (min-width: 426px) {
+  .slide {
+    width: 60vw;
+  }
+}
 .carousel-control-next-icon, .carousel-control-prev-icon {
   background-color: rgba(0, 0, 0, 0.4745098039) !important;
   display: inline-block;

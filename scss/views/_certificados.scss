@@ -12,6 +12,22 @@
    height: 65vh;
 }
 
+.slide {
+   height: 65vh;
+   width: 50vw;
+}
+
+@media (min-width: 320px) {
+   .slide {
+      width: 90vw;
+   }
+}
+@media (min-width: 426px) {
+   .slide {
+      width: 60vw;
+   }
+}
+
 .carousel-control-next-icon, .carousel-control-prev-icon {
    background-color: $color-secundario !important;
    display: inline-block;
